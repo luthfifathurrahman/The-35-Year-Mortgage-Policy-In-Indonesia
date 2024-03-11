@@ -741,9 +741,9 @@ st.markdown("<br>", unsafe_allow_html=True)
 #         st.warning("Dimohon untuk memasukkan angka di atas 0 pada Kamar Tidur, Kamar Mandi, Luas Tanah, dan Luas Bangunan. Pastikan juga Luas Bangunan tidak lebih besar dari Luas Tanah.", icon="⚠️")
     
 
-# Displaying a warning message  
-st.markdown("<br>", unsafe_allow_html=True)    
-st.warning("Tolong diingat, hasil prediksi harga rumah dari model machine learning ini hanyalah perkiraan berdasarkan data yang ada. Keputusan terkait pembelian atau penjualan rumah sebaiknya tetap dipertimbangkan dengan hati-hati dan disertai dengan penelitian lebih lanjut. Model ini tidak dapat memperhitungkan faktor-faktor yang mungkin tidak terdokumentasi dalam data, dan keputusan akhir sebaiknya didasarkan pada pemahaman menyeluruh tentang pasar dan kondisi spesifik properti yang bersangkutan. Selalu konsultasikan dengan profesional real estate sebelum mengambil keputusan besar terkait properti.", icon="⚠️")
+# # Displaying a warning message  
+# st.markdown("<br>", unsafe_allow_html=True)    
+# st.warning("Tolong diingat, hasil prediksi harga rumah dari model machine learning ini hanyalah perkiraan berdasarkan data yang ada. Keputusan terkait pembelian atau penjualan rumah sebaiknya tetap dipertimbangkan dengan hati-hati dan disertai dengan penelitian lebih lanjut. Model ini tidak dapat memperhitungkan faktor-faktor yang mungkin tidak terdokumentasi dalam data, dan keputusan akhir sebaiknya didasarkan pada pemahaman menyeluruh tentang pasar dan kondisi spesifik properti yang bersangkutan. Selalu konsultasikan dengan profesional real estate sebelum mengambil keputusan besar terkait properti.", icon="⚠️")
 
 # Citation
 st.markdown("<br>", unsafe_allow_html=True)
