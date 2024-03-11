@@ -44,7 +44,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 
 # --- IMAGE ---
-house_image = "https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-Effectiveness-of-the-35-Year-Mortgage-Policy-and-Predicting-Housing-Prices/main/image/rumah.jpg"
+house_image = "https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/rumah.jpg"
 st.image(house_image, use_column_width=True, output_format='auto')
 caption_style = "text-align: center; font-size: 18px;"
 link = "https://www.pexels.com/id-id/foto/fotografi-udara-rumah-3392324/"
@@ -550,7 +550,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 
 with col1:
-    people_icon = "https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-Effectiveness-of-the-35-Year-Mortgage-Policy-and-Predicting-Housing-Prices/main/image/team.png"
+    people_icon = "https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/team.png"
     st.image(people_icon, use_column_width=False, output_format='auto')
     caption_style1 = "text-align: left; font-size: 12px;"
     link = "https://www.flaticon.com/free-icon/team_476761?related_id=476863&origin=search"
@@ -579,7 +579,7 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    bank_icon = "https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-Effectiveness-of-the-35-Year-Mortgage-Policy-and-Predicting-Housing-Prices/main/image/bank.png"
+    bank_icon = "https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/bank.png"
     st.image(bank_icon, use_column_width=False, output_format='auto')
     caption_style1 = "text-align: left; font-size: 12px;"
     link = "https://www.flaticon.com/free-icon/bank_2830284?term=bank&page=1&position=1&origin=search&related_id=2830284"
