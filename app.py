@@ -798,3 +798,24 @@ for index, item in enumerate(data, start=1):
         unsafe_allow_html=True
     )
 
+# --- SOCIAL LINKS ---
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: left; font-size: 44px;'>My Profile</h2>", unsafe_allow_html=True)
+caption_style = "text-align: left; font-size: 24px;"
+SOCIAL_MEDIA = {
+    "GitHub Repository for This Project": "https://github.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia",
+    "LinkedIn Profile": "https://www.linkedin.com/in/luthfi-fathurrahman/"
+}
+
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    st.markdown(f"""
+        <div>
+            <p style="{caption_style}">
+                <a href="{link}" style="color: #f5f5f5; text-decoration: none;">
+                    {platform}
+                </a>
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
