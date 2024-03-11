@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {font-family: 'Montserrat';}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ol li{
+    list-style: none !important;
+}
+
+li{
+    list-style: none !important;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
