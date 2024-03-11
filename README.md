@@ -196,6 +196,7 @@ This directory contains several images that can be used in your project. Here is
 
 Feel free to use these images according to the needs of your project. Don't forget to check and comply with the licensing rules from the image sources.
 
+<!---
 ## Machine Learning
 
 ### Overview
@@ -252,7 +253,7 @@ The trained model is saved using the Pickle library and named `rf_regressor_mode
 Due to GitHub's size limitations, the model file is stored on Dropbox. You can download it [here](https://www.dropbox.com/scl/fi/g6wfirgh9ix4uvbovt6ms/rf_regressor_model.pkl?rlkey=rr6zrln6jk9tsu8m4qtk5wu5r&dl=1).
 
 Feel free to explore the code and dataset to understand the machine learning process used in predicting housing prices. If you have any questions or suggestions, please reach out!
-
+-->
 ---
 
 ## Streamlit App
