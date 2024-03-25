@@ -308,8 +308,8 @@ elif option == "Upah Minimum Provinsi":
 
     # Create a scatter plot using Altair and replace the marks with text
     text_chart = alt.Chart(df_rt_amount_house).mark_text().encode(
-        x=alt.X('amount_house_log:Q', title='Amount of Houses', axis=alt.Axis(labels=True, titleFontSize=20)),
-        y=alt.Y('ump_log:Q', scale=alt.Scale(domain=[6.29, 6.72]), title='Minimum Wage', axis=alt.Axis(labels=True, titleFontSize=20)),
+        x=alt.X('amount_house_log:Q', title='Amount of Houses', axis=alt.Axis(labels=False, titleFontSize=20)),
+        y=alt.Y('ump_log:Q', scale=alt.Scale(domain=[6.29, 6.72]), title='Minimum Wage', axis=alt.Axis(labels=False, titleFontSize=20)),
         text='provinsi:N',  # Use values from the "provinsi" column as text
         tooltip=[alt.Tooltip('provinsi:N', title='Province'),
                 alt.Tooltip('ump:Q', title='Minimum Wage', format=".2s"),
@@ -437,11 +437,11 @@ st.markdown("""
         Hasil clustering menunjukkan bahwa provinsi-provinsi di Indonesia dapat dibagi menjadi lima kelompok berdasarkan upah minimum:
     </p>
     <ol>
-        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 1</strong> dengan rata-rata upah minimum sebesar 5,067,381.000, mencakup provinsi DKI Jakarta</li>
-        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 2</strong> dengan rata-rata upah minimum sebesar 4,024,270.000, mencakup provinsi Papua, Papua Tengah, Papua Pegunungan, dan Papua Selatan.</li>
-        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 3</strong> dengan rata-rata upah minimum sebesar 3,391,992.912, mencakup provinsi Aceh, Riau, Sumatera Selatan, Kepulauan Bangka Belitung, Kepulauan Riau, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Timur, Kalimantan Utara, Sulawesi Utara, Sulawesi Selatan, Maluku Utara, Papua Barat, dan Papua Barat Daya.</li>
-        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 4</strong> dengan rata-rata upah minimum sebesar 2,844,313.029, mencakup provinsi Sumatera Utara, Sumatera Barat, Jambi, Lampung, Banten, Bali, Kalimantan Barat, Sulawesi Tengah, Gorontalo, Sulawesi Barat, dan Maluku.</li>
-        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 5</strong> dengan rata-rata upah minimum sebesar 2,217,650.879, mencakup provinsi Bengkulu, Jawa Barat, Jawa Tengah, DI Yogyakarta, Jawa Timur, Nusa Tenggara Barat, dan Nusa Tenggara Timur.</li>        
+        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 1</strong> dengan rata-rata upah minimum sebesar 5,100,000, mencakup provinsi DKI Jakarta</li>
+        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 2</strong> dengan rata-rata upah minimum sebesar 4,100,000, mencakup provinsi Papua, Papua Tengah, Papua Pegunungan, dan Papua Selatan.</li>
+        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 3</strong> dengan rata-rata upah minimum sebesar 3,400,000, mencakup provinsi Aceh, Riau, Sumatera Selatan, Kepulauan Bangka Belitung, Kepulauan Riau, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Timur, Kalimantan Utara, Sulawesi Utara, Sulawesi Selatan, Maluku Utara, Papua Barat, dan Papua Barat Daya.</li>
+        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 4</strong> dengan rata-rata upah minimum sebesar 2,900,000, mencakup provinsi Sumatera Utara, Sumatera Barat, Jambi, Lampung, Banten, Bali, Kalimantan Barat, Sulawesi Tengah, Gorontalo, Sulawesi Barat, dan Maluku.</li>
+        <li  style="text-align: justify; word-spacing:-2px; hyphens: auto; font-size: 24px;"><strong>Cluster 5</strong> dengan rata-rata upah minimum sebesar 2,300,000, mencakup provinsi Bengkulu, Jawa Barat, Jawa Tengah, DI Yogyakarta, Jawa Timur, Nusa Tenggara Barat, dan Nusa Tenggara Timur.</li>        
     </ol>
     <br>
     <p style="text-indent: 45px; text-align: justify; hyphens: auto; font-size: 24px;">
