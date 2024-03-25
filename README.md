@@ -254,18 +254,25 @@ This directory contains the Streamlit app (`app.py`) for visualizing and analyzi
 
 ### Analysis Sections
 
-#### 1. Korelasi Antara Populasi Dan Jumlah Rumah Yang Dijual Berdasarkan Provinsi
+#### 1. Perbandingan Jumlah Rumah Tangga Yang Memiliki Rumah Dan Tidak Memiliki Rumah
 
-![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-35-Year-Mortgage-Policy-in-Indonesia/main/image/correlation.svg)
+![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/amount_household.png)
 
-#### 2. Analisis Kesenjangan Kemampuan Membeli Rumah di Berbagai Wilayah Indonesia
+#### 2. Korelasi Antara Rumah Tangga Yang Tidak Memiliki Rumah Dan Jumlah Rumah Yang Dijual Berdasarkan Provinsi
 
-![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-35-Year-Mortgage-Policy-in-Indonesia/main/image/minimum_wage.svg)
+![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/correlation.png)
 
+#### 3. Analisis Kesenjangan Kemampuan Membeli Rumah di Berbagai Wilayah Indonesia
+
+![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Analisis%20Kesenjangan%20Kemampuan%20Membeli%20Rumah%20di%20Berbagai%20Wilayah%20Indonesia.png)
+
+#### 4. Clustering Upah Minimum Provinsi Menjadi 5 Kelompok
+
+![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/clustering.png)
 
 #### 3. Dampak Regional terhadap Durasi Pinjaman KPR
 
-![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-35-Year-Mortgage-Policy-in-Indonesia/main/image/mortgage.svg)
+![Correlation Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Dampak%20Regional%20terhadap%20Durasi%20Pinjaman%20KPR.png)
 
 ### Requirements
 
