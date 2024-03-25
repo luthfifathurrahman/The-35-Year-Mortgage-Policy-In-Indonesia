@@ -196,64 +196,54 @@ This directory contains several images that can be used in your project. Here is
 
 Feel free to use these images according to the needs of your project. Don't forget to check and comply with the licensing rules from the image sources.
 
-<!---
-## Machine Learning
+---
 
-### Overview
-This repository contains a machine learning project focused on predicting housing prices using the Random Forest Regressor algorithm. The dataset used for this project is sourced from [cleaned_listing_data.csv](https://raw.githubusercontent.com/luthfifathurrahman/Evaluating-the-Effectiveness-of-the-35-Year-Mortgage-Policy-and-Predicting-Housing-Prices/main/datasets/cleaned_listing_data.csv).
+## Machine Learning Directory
 
-### Directory Structure
-- `machine_learning.py`: Python script containing the machine learning model implementation.
+This directory contains Python scripts for machine learning tasks.
 
-### Libraries Used
-```python
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, r2_score
-from sklearn.ensemble import RandomForestRegressor
-import pickle
-import time
-```
+### Files
 
-### Installation
-Before running the script, make sure to install the required libraries using:
+#### 1. `clustering.py`
+
+This script performs clustering using KMeans algorithm on income data.
+
+##### Usage
+
 ```bash
-pip install pandas numpy scikit-learn pickle5
+python clustering.py
 ```
 
-### Data Cleaning
-Before model creation, the dataset undergoes a cleaning process, including:
--
+##### Description
 
- Removal of specific values.
-- Dropping the "kecamatan" column.
+- Reads income data from `datasets/cleaned_ump_data.csv`.
+- Performs one-hot encoding on categorical feature 'provinsi'.
+- Performs KMeans clustering with the specified number of clusters.
+- Saves the clustering results to `datasets/cluster.csv`.
 
-### Data Encoding
-Encoding is performed on the "provinsi" and "kota" columns to prepare categorical data for model training.
+#### 2. `machine_learning.py`
 
-### Feature and Label Separation
-The dataset is split into features and labels for model training.
+This script implements a Random Forest Regressor model for predicting house prices.
 
-### Model Creation
-The Random Forest Regressor algorithm is utilized to create the predictive model.
+##### Usage
 
-### Model Evaluation Metrics
-The model is evaluated using the following metrics:
-- Mean Squared Error (MSE)
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- Mean Absolute Percentage Error (MAPE)
-- R-squared (R2)
+```bash
+python machine_learning.py
+```
 
-### Model Saving
-The trained model is saved using the Pickle library and named `rf_regressor_model.pkl`.
+##### Description
 
-### Model Storage
-Due to GitHub's size limitations, the model file is stored on Dropbox. You can download it [here](https://www.dropbox.com/scl/fi/g6wfirgh9ix4uvbovt6ms/rf_regressor_model.pkl?rlkey=rr6zrln6jk9tsu8m4qtk5wu5r&dl=1).
+- Reads house listing data from `datasets/cleaned_listing_data.csv`.
+- Cleans the data, removes houses with prices under 50 million, and performs one-hot encoding on categorical features.
+- Splits the data into training and testing sets.
+- Trains a Random Forest Regressor model on the training data.
+- Evaluates the model's performance on both training and testing sets.
+- Saves the trained model as `rf_regressor_model.pkl`.
 
-Feel free to explore the code and dataset to understand the machine learning process used in predicting housing prices. If you have any questions or suggestions, please reach out!
--->
+### Trained Model
+
+You can download the trained Random Forest Regressor model from [here](https://www.dropbox.com/scl/fi/g6wfirgh9ix4uvbovt6ms/rf_regressor_model.pkl?rlkey=rr6zrln6jk9tsu8m4qtk5wu5r&dl=0).
+
 ---
 
 ## Streamlit App
