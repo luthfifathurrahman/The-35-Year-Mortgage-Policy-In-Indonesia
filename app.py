@@ -309,7 +309,7 @@ elif option == "Upah Minimum Provinsi":
     # Create a scatter plot using Altair and replace the marks with text
     text_chart = alt.Chart(df_rt_amount_house).mark_text().encode(
         x=alt.X('amount_house_log:Q', title='Amount of Houses', axis=alt.Axis(labels=False, titleFontSize=20)),
-        y=alt.Y('ump_log:Q', scale=alt.Scale(domain=[6.29, 6.5]), title='Minimum Wage', axis=alt.Axis(labels=False, titleFontSize=20)),
+        y=alt.Y('ump_log:Q', scale=alt.Scale(domain=[6.29, 6.9]), title='Minimum Wage', axis=alt.Axis(labels=False, titleFontSize=20)),
         text='provinsi:N',  # Use values from the "provinsi" column as text
         tooltip=[alt.Tooltip('provinsi:N', title='Province'),
                 alt.Tooltip('ump:Q', title='Minimum Wage', format=".2s"),
