@@ -12,7 +12,7 @@
 
 ## Data Understanding
 ### Data Source:
-  - Real Estate Marketplace in Indonesia
+  - Web Scraping Real Estate Marketplace in Indonesia
   - Badan Pusat Statistik Indonesia
   - Otoritas Jasa Keuangan Indonesia
   - Kementerian Ketenagakerjaan Indonesia
