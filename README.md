@@ -90,27 +90,27 @@
 
 ## Exploratory Data Analysis
 1. What is the comparison between the number of households that own homes and those that do not?
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20comparison%20between%20the%20number%20of%20households%20that%20own%20homes%20and%20those%20that%20do%20not.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20comparison%20between%20the%20number%20of%20households%20that%20own%20homes%20and%20those%20that%20do%20not.png)
 2. What is the relationship between the number of houses sold in each Indonesian province and the provincial minimum wage?
    Pearson Correlation = -0.29
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20provincial%20minimum%20wage.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20provincial%20minimum%20wage.png)
 3. What is the relationship between the number of houses sold in each Indonesian province and the population size?
    Pearson Correlation = 0.83
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20population%20size.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20population%20size.png)
 4. What is the relationship between the number of houses sold in each Indonesian province and the number of households?
    Pearson Correlation = 0.83
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20number%20of%20households.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20number%20of%20households.png)
 5. What is the relationship between the number of houses sold in each Indonesian province and the number of households without homes?
    Pearson Correlation = 0.87
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20number%20of%20households%20without%20homes.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20relationship%20between%20the%20number%20of%20houses%20sold%20in%20each%20Indonesian%20province%20and%20the%20number%20of%20households%20without%20homes.png)
 6. How significant is the disparity in the ability to purchase homes across different regions in Indonesia?
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/How%20significant%20is%20the%20disparity%20in%20the%20ability%20to%20purchase%20homes%20across%20different%20regions%20in%20Indonesia.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/How%20significant%20is%20the%20disparity%20in%20the%20ability%20to%20purchase%20homes%20across%20different%20regions%20in%20Indonesia.png)
    Clustering
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Cluster%20UMP.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Cluster%20UMP.png)
 7. What is the regional impact on mortgage loan duration?
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20regional%20impact%20on%20mortgage%20loan%20duration.png)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/What%20is%20the%20regional%20impact%20on%20mortgage%20loan%20duration.png)
 8. Is the 35-year mortgage policy appropriate?
-   ![Amount of Household](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Is%20the%2035-year%20mortgage%20policy%20appropriate.PNG)
+   ![Image](https://raw.githubusercontent.com/luthfifathurrahman/The-35-Year-Mortgage-Policy-In-Indonesia/main/image/Is%20the%2035-year%20mortgage%20policy%20appropriate.PNG)
 
 You can find the full report in here: https://the-35-year-mortgage-policy-in-indonesia-luthfifathurrahman.streamlit.app/
 
